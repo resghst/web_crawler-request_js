@@ -8,7 +8,7 @@ const options = {
    
   download.image(options)
     .then(({ filename, image }) => {
-      console.log('File saved to', filename)
+		  console.log('File saved to '+ filename )
     }).catch((err) => {
       throw err
     })
